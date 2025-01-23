@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise e Descrição de Funções</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Análise e Descrição de Funções</h1>
+        <p>Ferramenta para gestão eficiente de recursos humanos</p>
+    </header>
+    <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Início</a>
+        <a href="perfil.html"><i class="fas fa-user"></i> Perfil</a>
+        <a href="adf.html"><i class="fas fa-file-alt"></i> ADF</a>
+    </nav>
+    <main>
+        <section id="inicio" class="section-container">
+            <div class="card">
+                <h2><i class="fas fa-bullhorn"></i> Bem-vindo</h2>
+                <p>Este site foi desenvolvido para informatizar o processo de análise e descrição de funções, auxiliando na gestão eficiente de recursos humanos. Oferecemos ferramentas e informações para otimizar a gestão de pessoal.</p>
+            </div>
+        </section>
+
+        <section id="teoria" class="section-container">
+            <div class="card">
+                <h2><i class="fas fa-book"></i> Enquadramento Teórico</h2>
+                <p>A análise de funções descreve detalhadamente as tarefas, responsabilidades e competências necessárias para cada cargo. A descrição de funções resume essas informações de forma clara e concisa, servindo como guia para recrutamento, avaliação e desenvolvimento.</p>
+            </div>
+        </section>
+
+        <section id="sistema" class="section-container">
+            <div class="card">
+                <h2><i class="fas fa-cogs"></i> Sistema de Análise</h2>
+                <p>Insira os dados da função para gerar uma descrição:</p>
+                <form id="analiseForm">
+                    <label for="nome">Nome da Função:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+                    <label for="departamento">Departamento:</label><br>
+                    <input type="text" id="departamento" name="departamento" required><br><br>
+                    <label for="responsabilidades">Responsabilidades:</label><br>
+                    <textarea id="responsabilidades" name="responsabilidades" rows="4" required></textarea><br><br>
+                    <label for="competencias">Competências:</label><br>
+                    <textarea id="competencias" name="competencias" rows="4" required></textarea><br><br>
+                    <button type="submit">Gerar Descrição</button>
+                </form>
+                <div id="resultado" style="margin-top: 20px;"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Análise e Descrição de Funções</p>
+    </footer>
+    <script src="scriptAnalise.js"></script> <!- O script está aqui, ANTES do fechamento do </body> 
+</body>
+</html>
