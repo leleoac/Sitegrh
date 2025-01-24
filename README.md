@@ -8,6 +8,7 @@ Uma ferramenta web para auxiliar no processo de Análise e Descrição de Funç�
 Este projeto tem como objetivo informatizar o processo de Análise e Descrição de Funções (ADF), oferecendo uma interface intuitiva para definir os dados de uma função e gerar uma descrição formatada. A ADF é crucial para diversas atividades de RH, como recrutamento, avaliação de desempenho e gestão de salários.
 
 ## Funcionalidades
+![image](https://github.com/user-attachments/assets/fdd34182-2618-41b3-b50c-12dc204f7b25)
 
 *   **Definição do Perfil da Função:** Formulário para inserir informações como nome do posto de trabalho, titular, departamento, etc.
 *   **Geração de Descrição da Função:** Com base nos dados inseridos, o sistema gera uma descrição formatada da função, incluindo responsabilidades e competências.
@@ -23,6 +24,8 @@ Este projeto tem como objetivo informatizar o processo de Análise e Descrição
 ## Como usar
 
 ### Definição do Perfil da Função
+![image](https://github.com/user-attachments/assets/f9ba0328-d7cf-4df6-81b8-a2ab290baa1a)
+
 
 1.  Acesse a página "Perfil".
 2.  Preencha o formulário com os dados da função. Os campos com asterisco (\*) são obrigatórios.
